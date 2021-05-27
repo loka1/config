@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Config;
+namespace Loka1\Admin\Config;
 
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Facades\Admin;

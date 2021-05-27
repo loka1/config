@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Config;
+namespace Loka1\Admin\Config;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Extension;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Config;
+namespace Loka1\Admin\Config;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,7 +12,7 @@ class ConfigServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->app->runningInConsole()) {
-            $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+            $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         }
 
         Config::boot();

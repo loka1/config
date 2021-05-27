@@ -1,18 +1,18 @@
 <?php
 
-namespace Encore\Admin\Config;
+namespace Loka1\Admin\Config;
 
 use Illuminate\Database\Eloquent\Model;
 
 class ConfigModel extends Model
 {
-     /**
+    /**
      * Indicates if the model should be timestamped.
      *
      * @var bool
      */
     public $timestamps = false;
-    
+
     /**
      * Settings constructor.
      *

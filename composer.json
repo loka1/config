@@ -13,7 +13,7 @@
         {
             "name": "loka1",
             "email": ""
-        }
+        },
     ],
     "require": {
         "php": ">=7.0.0",
