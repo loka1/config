@@ -1,14 +1,18 @@
 {
-    "name": "laravel-admin-ext/config",
+    "name": "loka/config",
     "description": "Config extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "setting"],
-    "homepage": "https://github.com/laravel-admin-extensions/config",
+    "homepage": "https://github.com/loka/config",
     "license": "MIT",
     "authors": [
         {
             "name": "z-song",
             "email": "zosong@126.com"
+        },
+        {
+            "name": "loka1",
+            "email": ""
         }
     ],
     "require": {
@@ -22,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\Config\\": "src/"
+            "Loka1\\Admin\\Config\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\Config\\ConfigServiceProvider"
+                "Loka1\\Admin\\Config\\ConfigServiceProvider"
             ]
         }
     }
