@@ -108,8 +108,6 @@ class ConfigController
         }
         $form->textarea('description');
 
-        $form->display('created_at');
-        $form->display('updated_at');
 
         return $form;
     }
