@@ -1,5 +1,5 @@
 {
-    "name": "loka/config",
+    "name": "loka1/config",
     "description": "Config extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "setting"],
